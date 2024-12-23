@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text1{
+            color: aquamarine;
+        }
+        .text1::first-letter{
+            font-size: 50px;
+        }
+        .text1::after{
+            content: '?';
+        
+        }
+        .text1::before{
+            content:'!';
+
+        }
+        div:hover{
+            width: 100px;
+            height: 50px;
+            background: rgb(70, 111, 145);
+            transition: width 1s;
+        }
+        div:hover {
+            width: 500px;
+          }
+          div {
+            width: 100px;
+            height: 50px;
+            background-color: rgb(70, 111, 145);
+            position: relative;
+            animation-name: example;
+            animation-duration: 4s;
+          }
+      
+    </style>
+</head>
+<body>
+    <div class="text1">TestSuriya</div>
+    <div class="text">Welcome</div>
+
+    
+</body>
+</html>

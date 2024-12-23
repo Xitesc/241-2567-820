@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .botton{
+            background-color: yellowgreen;
+            padding:  10xp;
+            border: 0;
+        }
+
+        
+        .botton:hover{
+            background-color: aqua;
+        }
+        .botton:active{
+            background-color: orange;
+        }
+        .botton:focus{
+            background-color: bisque;
+        }
+        input:focus{
+            background-color: lightcyan;
+        }
+        .container .item:first-child{
+            background-color: blueviolet;
+        }
+        .container .item:last-child{
+            background-color: blue;
+        }
+        
+        .container .item:nth-child(2){
+            background-color: rgb(2, 170, 182);
+        }
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <input type="text" username="name">
+    <button class="botton">Button</button>
+    <div class ="container">
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        
+    </div>
+    
+</body>
+</html>
